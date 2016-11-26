@@ -12,7 +12,9 @@
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script type="text/javascript" src="dropdown.js"></script>
 <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+    
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -42,7 +44,13 @@
       <p class="tagline">Words passed 1st time: </p>
       <p class="tagline">Words passed 2nd time: </p>
       <p class="tagline">Words failed: </p>
-      <p class="tagline">Difficulty: </p>
+      <p class="tagline">Difficulty: <span id="dif"></span></p>
+     
+      <script>
+        var v1 = getParameterByName("diff");
+        document.getElementById("dif").innerHTML = v1;
+      </script>
+      
       <p class="tagline">Total score: </p>
     <center>
 	<a href="WebPage.html"><button type="button">Return to Start</button></a>
