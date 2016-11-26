@@ -1,5 +1,6 @@
 /* Dropdown Button */
 .dropbtn {
+    width: 175%;
     background-color: #4CAF50;
     color: white;
     padding: 16px;
