@@ -45,9 +45,7 @@
       <p class="tagline">Difficulty: </p>
       <p class="tagline">Total score: </p>
     <center>
-    <form action="/WebPage.html">
-    <input type="submit" value="Return To Start" />
-	</form>
+	<a href="WebPage.html"><button type="button">Return to Start</button></a>
 	</center>
   </section>
   <!-- About Section -->
