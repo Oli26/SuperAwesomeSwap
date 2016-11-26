@@ -8,7 +8,6 @@
 </head>    
     
 <body>
-    <div>
 <?php
 	$con = mysqli_connect("localhost", "root", "password", "dondershack");
 	//session_destroy();
@@ -21,7 +20,7 @@
 					$myfile = fopen("".$_SESSION['unit_id'].".txt", "r") or die("Unable to open file!");
 					echo fread($myfile,filesize("".$_SESSION['unit_id'].".txt"));
 					fclose($myfile);
-					echo "<form class='form' action = '' method='post'><input class='button' type='submit' name = 'startTestButton' value='Start Test' /></form>";
+					echo "<form action = '' method='post'><input class='button' type='submit' name = 'startTestButton' value='Start Test' /></form>";
 
 					$sql = "SELECT word FROM testWord where unit_id = ".$_SESSION['unit_id'].";";
 					$result = mysqli_query($con,$sql);
@@ -74,7 +73,6 @@
 	}
 ?>
 
-        </div>
     </body> 
 </html>
 
