@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Swap</title>
+<title>Statistics</title>
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 <script>var __adobewebfontsappname__="dreamweaver"</script>
@@ -42,6 +42,7 @@
       <p class="tagline">Words passed 1st time: </p>
       <p class="tagline">Words passed 2nd time: </p>
       <p class="tagline">Words failed: </p>
+      <p class="tagline">Difficulty: </p>
       <p class="tagline">Total score: </p>
     <center>
     <form action="/WebPage.html">
