@@ -13,11 +13,6 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function yourFunction(){
-    var v1 = getParameterByName("diff");
-    window.alert(v1);
-}
-
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }

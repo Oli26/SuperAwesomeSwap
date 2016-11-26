@@ -39,7 +39,13 @@
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <h2 class="hero_header">Test <span class="light">Time</span></h2>
-      <p class="tagline">Words Swapped:X Difficulty: Y</p>
+      <p class="tagline">Words Swapped:X Difficulty: <span id="dif">Y</span></p>
+      
+      <script>
+        var v1 = getParameterByName("diff");
+        document.getElementById("dif").innerHTML = v1;
+      </script>
+      
     <p>Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template </p>
    	<center>
      <p> Russian Word</p>
