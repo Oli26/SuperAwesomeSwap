@@ -37,16 +37,11 @@
   </header>
   <!-- Hero Section -->
   <section class="hero" id="hero">
-    <h2 class="hero_header">Test <span class="light">Time</span></h2>
-      <p class="tagline">Words Swapped:X Difficulty: Y</p>
-    <p>Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template Template </p>
-   	<center>
-     <p> Russian Word</p>
-     <input type="text">
-    </center>
+    <h2 class="hero_header">Swap <span class="light">Ruski</span></h2>
+    <p class="tagline">The website that lets you learn while having fun!</p>
     <center>
-    <form action="Php checking function">
-    <input type="submit" value="Check Word" />
+    <form action="page2.html">
+    <input type="submit" value="Begin" />
 	</form>
 	</center>
   </section>
